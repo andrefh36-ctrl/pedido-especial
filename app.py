@@ -27,11 +27,11 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("Sim! ❤️"):
         st.balloons()
-        st.success(" E ENTÃO AGENTE ESTA OFICIAMENTE NAMORANDO, Essa foi a  melhor decisão da sua vida vida!
-        Prometo te fazer a mulher mais feliz do mundo. 😍")
+        st.success(" E ENTÃO AGENTE ESTA OFICIAMENTE NAMORANDO, Essa foi a  melhor decisão da sua vida vida! Prometo te fazer a mulher mais feliz do mundo. 😍")
         st.snow() # Um efeito extra de charme
 
 with col2:
     # Um pequeno truque: se ela tentar clicar no Não, a gente brinca um pouco
     if st.button("Não... 😢"):
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
+
