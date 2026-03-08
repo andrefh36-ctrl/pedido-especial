@@ -5,13 +5,12 @@ import time
 st.set_page_config(page_title="Tenho uma pergunta...", page_icon="❤️")
 
 # Título principal
-st.title("Oi, [Nome dela]! 👋")
+st.title("Oi, [Kenia mendes]! 👋")
 
 # Espaço para uma mensagem fofa
 st.write("""
-Desde que a gente começou a conversar, minha vida ficou muito mais colorida. 
-Passamos por momentos incríveis e eu não consigo parar de pensar no quanto 
-você me faz bem. 
+Minha princesa desde que a gente começou a ficar minha vida mudou totalmente como pessoa, você me fez ter outro pensamento como pessoa, 
+e depois disso voce se tornou muito importante para min, portanto eu tem algo para lhe perguntar, perché ti amo mia principessa
 """)
 
 # Exibir uma foto de vocês (substitua pelo caminho do arquivo)
@@ -33,4 +32,5 @@ with col1:
 with col2:
     # Um pequeno truque: se ela tentar clicar no Não, a gente brinca um pouco
     if st.button("Não... 😢"):
+
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
