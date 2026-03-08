@@ -26,7 +26,8 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("Sim! ❤️"):
         st.balloons()
-        st.success("A melhor decisão da minha vida! Prometo te fazer a pessoa mais feliz do mundo. 😍")
+        st.success("E então agente esta oficialmente namorando, essa foi  melhor decisão da sua vida! 
+        Prometo te fazer a mulher mais feliz do mundo. 😍")
         st.snow() # Um efeito extra de charme
 
 with col2:
@@ -34,3 +35,4 @@ with col2:
     if st.button("Não... 😢"):
 
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
+
