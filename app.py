@@ -36,3 +36,4 @@ with col2:
 
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
 
+
