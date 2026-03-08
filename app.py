@@ -5,12 +5,13 @@ import time
 st.set_page_config(page_title="Tenho uma pergunta...", page_icon="❤️")
 
 # Título principal
-st.title("Oi, [Kenia mendes]! 👋")
+st.title("Oi, [Nome dela]! 👋")
 
 # Espaço para uma mensagem fofa
 st.write("""
-Minha princesa desde que a gente começou a ficar minha vida mudou totalmente como pessoa, você me fez ter outro pensamento como pessoa, 
-e depois disso voce se tornou muito importante para min, portanto eu tem algo para lhe perguntar, perché ti amo mia principessa
+Desde que a gente começou a ficar, minha vida mudou muito, ficou muito mais colorida. 
+Passamos por momentos incríveis e eu não consigo parar de pensar no quanto 
+você me faz bem, allora mia principessa ho una domanda per te, la tua persona vuole uscire con me? 
 """)
 
 # Exibir uma foto de vocês (substitua pelo caminho do arquivo)
@@ -18,7 +19,7 @@ e depois disso voce se tornou muito importante para min, portanto eu tem algo pa
 
 st.divider()
 
-st.subheader("Eu tenho algo muito importante para te perguntar...")
+st.subheader("Eu tenho algo muito importante para te perguntar, muito mesmo...")
 
 # Botões de decisão
 col1, col2 = st.columns(2)
@@ -26,14 +27,11 @@ col1, col2 = st.columns(2)
 with col1:
     if st.button("Sim! ❤️"):
         st.balloons()
-        st.success("E então agente esta oficialmente namorando, essa foi  melhor decisão da sua vida! 
+        st.success(" E ENTÃO AGENTE ESTA OFICIAMENTE NAMORANDO, Essa foi a  melhor decisão da sua vida vida!
         Prometo te fazer a mulher mais feliz do mundo. 😍")
         st.snow() # Um efeito extra de charme
 
 with col2:
     # Um pequeno truque: se ela tentar clicar no Não, a gente brinca um pouco
     if st.button("Não... 😢"):
-
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
-
-
