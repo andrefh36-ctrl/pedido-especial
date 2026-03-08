@@ -5,7 +5,7 @@ import time
 st.set_page_config(page_title="Tenho uma pergunta...", page_icon="❤️")
 
 # Título principal
-st.title("Oi, [kenia mendes]! 👋")
+st.title("Oi, Kenia mendes! 👋")
 
 # Espaço para uma mensagem fofa
 st.write("""
@@ -34,6 +34,7 @@ with col2:
     # Um pequeno truque: se ela tentar clicar no Não, a gente brinca um pouco
     if st.button("Não... 😢"):
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
+
 
 
 
