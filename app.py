@@ -11,7 +11,7 @@ st.title("Oi, [kenia mendes]! 👋")
 st.write("""
 Desde que a gente começou a ficar, minha vida mudou muito, ficou muito mais colorida. 
 Passamos por momentos incríveis e eu não consigo parar de pensar no quanto 
-você me faz bem. allora mia principessa ho una domanda per te, la tua persona vuole uscire con me? 
+você me faz bem. Allora mia principessa ho una domanda per te, la tua persona vuole uscire con me? 
 """)
 
 # Exibir uma foto de vocês (substitua pelo caminho do arquivo)
@@ -34,6 +34,7 @@ with col2:
     # Um pequeno truque: se ela tentar clicar no Não, a gente brinca um pouco
     if st.button("Não... 😢"):
         st.warning("Ops! Acho que o botão quebrou... tente o outro ali do lado! 😉")
+
 
 
 
